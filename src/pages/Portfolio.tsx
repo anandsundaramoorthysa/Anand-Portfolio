@@ -18,7 +18,7 @@ const projects = [
   },
   {
     title: "E-Commerce Dashboard",
-    description: "Adumin dashboard for managing products, orders, and customers.",
+    description: "Admin dashboard for managing products, orders, and customers.",
     technologies: ["React", "Next.js", "TanStack Query", "Tailwind CSS"],
     image: "/placeholder.svg",
     github: "https://github.com/username/ecommerce-dashboard",
