@@ -17,7 +17,7 @@ const projects = [
     featured: true
   },
   {
-    title: "E-commerce Dashboard",
+    title: "E-Commerce Dashboard",
     description: "Admin dashboard for managing products, orders, and customers.",
     technologies: ["React", "Next.js", "TanStack Query", "Tailwind CSS"],
     image: "/placeholder.svg",
