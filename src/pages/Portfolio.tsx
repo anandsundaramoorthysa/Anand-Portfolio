@@ -8,40 +8,31 @@ import { Github, ExternalLink, Code } from "lucide-react";
 // Project data
 const projects = [
   {
-    title: "Personal Portfolio",
-    description: "A responsive portfolio website built with React, TypeScript, and Tailwind CSS.",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    image: "/placeholder.svg",
-    github: "https://github.com/username/portfolio",
-    demo: "https://portfolio.example.com",
+    title: "Loyola Admission 2K25",
+    description: "A complete admission management system for Loyola College.",
+    technologies: ["React", "Express.js", "Node.js", "PostgreSQL"],
+    image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/Loyola-Admission-2K25",
+    github: "https://github.com/anandsundaramoorthysa/Loyola-Admission-2K25",
+    demo: "",
     featured: true
   },
   {
-    title: "E-Commerce Dashboard",
-    description: "Admin dashboard for managing products, orders, and customers.",
-    technologies: ["React", "Next.js", "TanStack Query", "Tailwind CSS"],
-    image: "/placeholder.svg",
-    github: "https://github.com/username/ecommerce-dashboard",
-    demo: "https://dashboard.example.com",
+    title: "Goldayan",
+    description: "A blog website built using Org Mode and Emacs, designed for efficient publishing and customization.",
+    technologies: ["Org Mode", "Emacs Lisp", "CSS"],
+    image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/goldayan.github.io",
+    github: "https://github.com/anandsundaramoorthysa/goldayan.github.io",
+    demo: "",
     featured: true
   },
   {
-    title: "Weather App",
-    description: "Real-time weather application with forecasts and location search.",
-    technologies: ["JavaScript", "React", "Weather API", "CSS"],
-    image: "/placeholder.svg",
-    github: "https://github.com/username/weather-app",
-    demo: "https://weather.example.com",
-    featured: false
-  },
-  {
-    title: "Task Manager",
-    description: "A Kanban-style task management application with drag-and-drop functionality.",
-    technologies: ["React", "Redux", "DnD Kit", "Styled Components"],
-    image: "/placeholder.svg",
-    github: "https://github.com/username/task-manager",
-    demo: "https://tasks.example.com",
-    featured: false
+    title: "My Portfolio",
+    description: "A personal portfolio website showcasing my skills, projects, and blog posts.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "ShadCN/UI", "Framer Motion"],
+    image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/Anand-Portfolio",
+    github: "https://github.com/anandsundaramoorthysa/Anand-Portfolio",
+    demo: "https://anandsundaramoorthysa.github.io/",
+    featured: true
   }
 ];
 
