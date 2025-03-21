@@ -18,7 +18,7 @@ const projects = [
   },
   {
     title: "Goldayan",
-    description: "blog website built using Org Mode and Emacs, designed for efficient publishing and customization.",
+    description: "A blog website built using Org Mode and Emacs, designed for efficient publishing and customization.",
     technologies: ["Org Mode", "Emacs Lisp", "CSS"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/goldayan.github.io",
     github: "https://github.com/anandsundaramoorthysa/goldayan.github.io",
