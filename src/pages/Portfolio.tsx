@@ -9,7 +9,7 @@ import { Github, ExternalLink, Code } from "lucide-react";
 const projects = [
   {
     title: "Loyola Admission 2K25",
-    description: "An complete admission management system for Loyola College.",
+    description: "A complete admission management system for Loyola College.",
     technologies: ["React", "Express.js", "Node.js", "PostgreSQL"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/Loyola-Admission-2K25",
     github: "https://github.com/anandsundaramoorthysa/Loyola-Admission-2K25",
