@@ -29,7 +29,7 @@ const GreetingAnimation = () => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.5 }}
-        className="flex flex-col items-center"
+        className="flex flex-col items-left"
       >
         <span className="text-lg md:text-2xl font-bold">
           {greetings[currentIndex].text}
