@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const GreetingAnimation = () => {
   const greetings = [
-    { text: "வணக்கம்" },
-    { text: "ഹലോ" },
-    { text: "హలో" },
-    { text: "ಹಲೋ" },
-    { text: "नमस्ते" },
-    { text: "Hello" },
+    { text: "வணக்கம் 🙏" },
+    { text: "ഹലോ 👋" },
+    { text: "హలో 👋" },
+    { text: "ಹಲೋ 👋" },
+    { text: "नमस्ते 🙏" },
+    { text: "Hi 👋" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
