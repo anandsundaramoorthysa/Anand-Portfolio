@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const GreetingAnimation = () => {
   const greetings = [
-    { text: "வணக்கம் 🙏", language: "Tamil" },
-    { text: "ഹലോ 👋", language: "Malayalam" },
-    { text: "హలో 👋", language: "Telugu" },
-    { text: "ಹಲೋ 👋", language: "Kannada" },
-    { text: "नमस्ते 🙏", language: "Hindi" },
-    { text: "Hi 👋", language: "English" },
+    { text: "வணக்கம்" },
+    { text: "ഹലോ" },
+    { text: "హలో" },
+    { text: "ಹಲೋ" },
+    { text: "नमस्ते" },
+    { text: "Hi" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,9 +34,6 @@ const GreetingAnimation = () => {
       >
         <span className="text-lg md:text-2xl font-bold">
           {greetings[currentIndex].text}
-        </span>
-        <span className="text-sm md:text-base text-muted-foreground">
-          ({greetings[currentIndex].language})
         </span>
       </motion.div>
     </div>
