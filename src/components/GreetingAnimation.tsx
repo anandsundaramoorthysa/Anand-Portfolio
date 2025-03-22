@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -22,20 +23,20 @@ const GreetingAnimation = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center mb-2">
+    <div className="flex items-center mb-2">
       <motion.div
         key={currentIndex}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.5 }}
-        className="flex flex-col items-left"
+        className="flex items-center"
       >
         <span className="text-lg md:text-2xl font-bold">
           {greetings[currentIndex].text}
         </span>
         <span className="text-sm md:text-base text-muted-foreground">
-          {greetings[currentIndex].language}
+          ({greetings[currentIndex].language})
         </span>
       </motion.div>
     </div>
