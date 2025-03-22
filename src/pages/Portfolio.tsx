@@ -27,7 +27,7 @@ const projects = [
   },
   {
     title: "My Portfolio",
-    description: "A personal website showcasing my skills, projects, and blog posts.",
+    description: "A personal portfolio website showcasing my skills, projects, and blog posts.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "ShadCN/UI", "Framer Motion"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/Anand-Portfolio",
     github: "https://github.com/anandsundaramoorthysa/Anand-Portfolio",
