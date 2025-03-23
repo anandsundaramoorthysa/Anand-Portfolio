@@ -26,7 +26,7 @@ export default function About() {
             <h1 className="text-3xl md:text-4xl font-bold">About Me</h1>
             <div className="mt-4 h-1 w-20 bg-primary/50 mx-auto rounded-full"></div>
           </motion.div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -37,9 +37,9 @@ export default function About() {
               <div className="relative group hover-lift">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent rounded-lg transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
                 <div className="relative rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 aspect-[3/4] w-full max-w-sm bg-muted/30">
-                  <img 
-                    src="Anand3.jpg" 
-                    alt="ANAND SUNDARAMOORTHY SA" 
+                  <img
+                    src="Anand3.jpg"
+                    alt="ANAND SUNDARAMOORTHY SA"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
@@ -49,7 +49,7 @@ export default function About() {
                 </div>
               </div>
             </motion.div>
-            
+
             <motion.div
               ref={textRef}
               initial={{ opacity: 0, x: 20 }}
@@ -60,19 +60,44 @@ export default function About() {
               <div className="mb-6 flex items-center">
                 <TypedTitle />
               </div>
-              
+
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I am a passionate and result-oriented Front-End Developer with expertise in creating responsive and user-friendly websites and applications using HTML, CSS, JavaScript/jQuery, Bootstrap and Flutter.
+                  𝐓𝐡𝐞 𝐋𝐢𝐟𝐞 𝐢𝐬 𝐧𝐨𝐭 𝐚𝐬 𝐆𝐮𝐞𝐬𝐬. 𝐁𝐮𝐭 𝐰𝐞 𝐚𝐫𝐞 𝐚𝐥𝐰𝐚𝐲𝐬 𝐭𝐫𝐲 𝐭𝐨 𝐛𝐞 𝐛𝐞𝐬𝐭.
                 </p>
                 <p>
-                  With a proven ability to collaborate with cross-functional teams, I focus on delivering high-quality, accessible, and visually appealing solutions. I'm adept at leveraging modern technologies to solve complex problems and drive impactful results.
+                  Howdy guys! I'm a passionate Developer 👨🏻‍💻 & Prompt Engineer.
                 </p>
                 <p>
-                  My journey in tech involves working with Open Source AI models and integrating them into web projects, as well as developing mobile applications using Flutter. I maintain a strong understanding of AI/ML, transitioning from theoretical knowledge to hands-on experience.
+                  💡 <strong>𝐓𝐞𝐜𝐡 𝐄𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭 & 𝐄𝐱𝐩𝐥𝐨𝐫𝐞𝐫</strong> <br />
+                  I always love to explore the tools and technologies in development, from Flutter and Firebase to Streamlit and AI/ML. Even I explore an aesthetic Emacs & Org Mode for Static Site Generation. By continuously learning and experimenting with different tools & technologies, I stay agile and adaptable in the fast-evolving tech landscape.
                 </p>
                 <p>
-                  Currently, I'm seeking opportunities to contribute my innovative skills to web and app development projects, where I can continue to grow while delivering exceptional user experiences.
+                  🤝 <strong>𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 𝐄𝐧𝐠𝐚𝐠𝐞𝐦𝐞𝐧𝐭</strong> <br />
+                  I believe in the power of knowledge sharing. As a tech enthusiast, I attend meetups and build a network with like-minded individuals. One of the communities I recently explored and contribute to is <strong>KanchiLung</strong>, a Tamil community. I am also working on the <strong>TamilRulePy</strong> Python Package with the help of the community.
+                </p>
+                <p>
+                  🚀 <strong>𝐅𝐥𝐮𝐭𝐭𝐞𝐫 & 𝐅𝐢𝐫𝐞𝐛𝐚𝐬𝐞 𝐉𝐨𝐮𝐫𝐧𝐞𝐲</strong> <br />
+                  My journey into cross-platform mobile development began with an internship at Corizo as a Flutter Developer. Despite being a paid internship, I gained invaluable experience in integrating Firebase back-end services and building scalable mobile apps. This experience has been a game-changer in my development career.
+                </p>
+                <p>
+                  🤖 <strong>𝐀𝐈/𝐌𝐋 𝐰𝐢𝐭𝐡 𝐅𝐥𝐚𝐬𝐤</strong> <br />
+                  In my internship at DiffuseAI as a Machine Learning Intern, I was exposed to real-world applications of AI. Working with Open Source AI models and integrating them into web projects using Flask has broadened my practical understanding of AI/ML, transitioning from theoretical knowledge to hands-on experience.
+                </p>
+                <p>
+                  📝 <strong>𝐏𝐫𝐨𝐦𝐩𝐭 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 & 𝐀𝐈 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧</strong> <br />
+                  As a Prompt Engineer, I specialize in crafting high-quality prompts for optimizing AI interactions. By understanding model behaviors, I fine-tune prompts to enhance accuracy and generate meaningful responses.
+                </p>
+                <p>
+                  💼 <strong>𝐅𝐢𝐧𝐚𝐧𝐜𝐞 𝐄𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭</strong> <br />
+                  Alongside my tech pursuits, I’ve developed a keen interest in finance. I actively explore ways to manage, grow, and invest my finances, understanding the importance of financial independence.
+                </p>
+                <p>
+                  ✍️ <strong>𝐁𝐥𝐨𝐠 𝐖𝐫𝐢𝐭𝐞𝐫 𝐨𝐧 𝐌𝐞𝐝𝐢𝐮𝐦</strong> <br />
+                  As a tech and finance enthusiast, I write about what I learn and understand in both fields with passion, which fuels my curiosity even further.
+                </p>
+                <p>
+                  Thank you for taking the time to know about me. I look forward to connecting, learning, and collaborating with other enthusiasts.
                 </p>
               </div>
             </motion.div>

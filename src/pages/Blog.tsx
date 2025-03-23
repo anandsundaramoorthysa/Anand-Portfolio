@@ -13,43 +13,43 @@ export default function Blog() {
 
   const blogPosts = [
     {
-      title: "Lulu Mall: More Than Shoppings🛒 — A Business Viewpoint",
-      excerpt: "How businesses capitalize on people's laziness to generate wealth.",
-      date: "March 18, 2025",
-      image: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*z-4VgP_aYX3ciGLLThZvFw.jpeg",
-      url: "https://medium.com/@anandsundaramoorthysa/lulu-mall-more-than-shoppings-a-business-viewpoint-763c121549f8"
-    },
+      "title": "Lulu Mall: More Than Shoppings🛒 — A Business Viewpoint",
+      "excerpt": "\"Use people's laziness and become rich.\" If someone can capitalize on people's laziness, they can become rich. Check my blog...",
+      "date": "March 18, 2025",
+      "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*z-4VgP_aYX3ciGLLThZvFw.jpeg",
+      "url": "https://medium.com/@anandsundaramoorthysa/lulu-mall-more-than-shoppings-a-business-viewpoint-763c121549f8"
+    },    
     {
       title: "Emacs & Org Mode in Windows",
-      excerpt: "How I use Emacs in Windows and the challenges I faced.",
+      excerpt: "How I use the Emacs in Windows. What are the issues I face? To know about that check my blog...",
       date: "March 18, 2025",
       image: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*BuBhny8k374jrc90t9UGjA.jpeg",
       url: "https://medium.com/@anandsundaramoorthysa/emacs-org-mode-in-windows-95922d3233b3"
     },
     {
       title: "How Failure Feels?",
-      excerpt: "Failure is an unskippable, teaching part of life. But how do we tackle it?",
+      excerpt: "Failure is just a part of life—an unskippable, teaching part. But, How to tackle that. Check my blog...",
       date: "March 9, 2025",
       image: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*HVlvCWH5s8r3tmUeZjVPhw.jpeg",
       url: "https://medium.com/@anandsundaramoorthysa/how-failure-feels-bb07aaabbb5c"
     },
     {
       title: "Prompting & My Life",
-      excerpt: "How prompting changed my life from nothing to a tech & finance enthusiast.",
+      excerpt: "How the prompting change my life? From nothing to tech & finance enthusiast. Check the blog to know...",
       date: "March 7, 2025",
       image: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*__uylPhQvcbY76Y1Cj18WQ.jpeg",
       url: "https://medium.com/@anandsundaramoorthysa/prompting-my-life-ef76d6d34681"
     },
     {
       title: "The Evolution & Backlash of Developers Using ChatGPT",
-      excerpt: "Exploring the positives and negatives of ChatGPT in software development.",
+      excerpt: "What are the Positives and negatives faced by Developers by using ChatGPT? Check my blog for more details.",
       date: "January 8, 2025",
       image: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Wf1fUi5nnUja-mrI-H3pmg.jpeg",
       url: "https://medium.com/@anandsundaramoorthysa/the-evolution-backclash-of-developers-using-chatgpt-20ddfaa698e1"
     },
     {
       title: "ChatGPT & RLHF",
-      excerpt: "How ChatGPT provides more accurate data through reinforcement learning.",
+      excerpt: "Did you think about it? How does the ChatGPT give more and more data as it is mostly accurate? The Blog is about that only....",
       date: "January 7, 2025",
       image: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*7Soiv4DIWvMe3PhiJfttHA.jpeg",
       url: "https://medium.com/@anandsundaramoorthysa/chatgpt-rlhf-29711a0a1469"

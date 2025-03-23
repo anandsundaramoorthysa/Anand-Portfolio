@@ -3,27 +3,27 @@ import { useEffect } from "react";
 import PageTransition from "@/components/PageTransition";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Github, ExternalLink, Code } from "lucide-react";
+import { Github, ExternalLink, Code, FastForward } from "lucide-react";
 
 // Project data
 const projects = [
   {
     title: "Loyola Admission 2K25",
-    description: "A complete admission management system for Loyola College.",
+    description: "Develop a Admission Form for Loyola College of Arts & Science, Mettala.",
     technologies: ["React", "Express.js", "Node.js", "PostgreSQL"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/Loyola-Admission-2K25",
     github: "https://github.com/anandsundaramoorthysa/Loyola-Admission-2K25",
     demo: "",
-    featured: true
+    featured: false
   },
   {
     title: "Goldayan",
-    description: "A blog website built using Org Mode and Emacs, designed for efficient publishing and customization.",
+    description: "Goldayan is a portfolio and blog website for Gold Ayyanar, where I redesigned the CSS to creatively represent 'Gold' in my unique style.",
     technologies: ["Org Mode", "Emacs Lisp", "CSS"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/goldayan.github.io",
     github: "https://github.com/anandsundaramoorthysa/goldayan.github.io",
     demo: "",
-    featured: true
+    featured: false
   },
   {
     title: "My Portfolio",
@@ -32,7 +32,7 @@ const projects = [
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/Anand-Portfolio",
     github: "https://github.com/anandsundaramoorthysa/Anand-Portfolio",
     demo: "https://anandsundaramoorthysa.github.io/",
-    featured: true
+    featured: false
   }
 ];
 

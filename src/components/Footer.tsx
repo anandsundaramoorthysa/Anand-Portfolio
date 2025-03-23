@@ -15,7 +15,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-2 text-sm text-muted-foreground max-w-md">
-              Front-End Developer specializing in responsive and user-friendly websites and applications.
+            LCM'25 | Tech & Finance Enthusiast | Blog Writer | Developer & Prompt Engineer | Explore Which I Love
             </p>
           </div>
           
