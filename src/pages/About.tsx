@@ -26,6 +26,7 @@ export default function About() {
             <div className="mt-4 h-1 w-20 bg-primary/50 mx-auto rounded-full"></div>
           </motion.div>
 
+          {/* First Section - Image Left, Content Right */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -42,6 +43,10 @@ export default function About() {
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
+                  {/* Hover Overlay with Name */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <h3 className="text-white font-medium text-lg">ANAND SUNDARAMOORTHY SA</h3>
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -64,18 +69,11 @@ export default function About() {
                 <p>
                   Howdy guys! I'm a passionate Developer 👨🏻‍💻 & Prompt Engineer.
                 </p>
-                <p>
-                  💡 <strong>𝐓𝐞𝐜𝐡 𝐄𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭 & 𝐄𝐱𝐩𝐥𝐨𝐫𝐞𝐫</strong> <br />
-                  I always love to explore the tools and technologies in development, from Flutter and Firebase to Streamlit and AI/ML.
-                </p>
-                <p>
-                  🤝 <strong>𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 𝐄𝐧𝐠𝐚𝐠𝐞𝐦𝐞𝐧𝐭</strong> <br />
-                  I believe in the power of knowledge sharing and actively contribute to tech communities like <strong>KanchiLung</strong>.
-                </p>
               </div>
             </motion.div>
           </div>
 
+          {/* Second Section - Image Right, Content Left */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10 items-center mt-16">
             <motion.div
               ref={textRef}
@@ -88,18 +86,6 @@ export default function About() {
                 <p>
                   🚀 <strong>𝐅𝐥𝐮𝐭𝐭𝐞𝐫 & 𝐅𝐢𝐫𝐞𝐛𝐚𝐬𝐞 𝐉𝐨𝐮𝐫𝐧𝐞𝐲</strong> <br />
                   My journey into cross-platform mobile development began with an internship at Corizo as a Flutter Developer.
-                </p>
-                <p>
-                  🤖 <strong>𝐀𝐈/𝐌𝐋 𝐰𝐢𝐭𝐡 𝐅𝐥𝐚𝐬𝐤</strong> <br />
-                  At DiffuseAI, I worked with Open Source AI models, integrating them into web projects using Flask.
-                </p>
-                <p>
-                  📝 <strong>𝐏𝐫𝐨𝐦𝐩𝐭 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 & 𝐀𝐈 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧</strong> <br />
-                  As a Prompt Engineer, I specialize in crafting high-quality prompts for optimizing AI interactions.
-                </p>
-                <p>
-                  💼 <strong>𝐅𝐢𝐧𝐚𝐧𝐜𝐞 𝐄𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭</strong> <br />
-                  Alongside tech, I actively explore ways to manage, grow, and invest my finances.
                 </p>
               </div>
             </motion.div>
@@ -114,11 +100,15 @@ export default function About() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent rounded-lg transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
                 <div className="relative rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 aspect-[3/4] w-full max-w-sm bg-muted/30">
                   <img
-                    src="Anand3.jpg" 
+                    src="Anand3.jpg" /* Replace with second image */
                     alt="ANAND SUNDARAMOORTHY SA"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
+                  {/* Hover Overlay with Name */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <h3 className="text-white font-medium text-lg">ANAND SUNDARAMOORTHY SA</h3>
+                  </div>
                 </div>
               </div>
             </motion.div>
