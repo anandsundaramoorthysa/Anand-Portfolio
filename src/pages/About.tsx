@@ -31,10 +31,15 @@ export default function About() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-center text-2xl font-semibold text-primary mb-10"
+            className="text-center text-2xl font-semibold text-primary mb-6"
           >
             <TypedTitle />
           </motion.div>
+
+          {/* Quote */}
+          <p className="text-center text-xl font-semibold text-muted-foreground mb-10">
+            𝐓𝐡𝐞 𝐋𝐢𝐟𝐞 𝐢𝐬 𝐧𝐨𝐭 𝐚𝐬 𝐆𝐮𝐞𝐬𝐬. 𝐁𝐮𝐭 𝐰𝐞 𝐚𝐫𝐞 𝐚𝐥𝐰𝐚𝐲𝐬 𝐭𝐫𝐲 𝐭𝐨 𝐛𝐞 𝐛𝐞𝐬𝐭.
+          </p>
 
           {/* First Section - Image Left, Content Right */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
@@ -70,9 +75,6 @@ export default function About() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="md:col-span-7 space-y-6 text-lg text-muted-foreground leading-relaxed"
             >
-              <p className="text-xl font-semibold text-primary">
-                𝐓𝐡𝐞 𝐋𝐢𝐟𝐞 𝐢𝐬 𝐧𝐨𝐭 𝐚𝐬 𝐆𝐮𝐞𝐬𝐬. 𝐁𝐮𝐭 𝐰𝐞 𝐚𝐫𝐞 𝐚𝐥𝐰𝐚𝐲𝐬 𝐭𝐫𝐲 𝐭𝐨 𝐛𝐞 𝐛𝐞𝐬𝐭.
-              </p>
               <p className="text-lg font-medium">Howdy guys! I'm a passionate Developer 👨🏻‍💻 & Prompt Engineer.</p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -112,21 +114,21 @@ export default function About() {
                   <div className="p-6 bg-muted/20 rounded-lg shadow-md">
                     <h3 className="text-xl font-semibold text-primary">🤖 AI/ML with Flask</h3>
                     <p>
-                      Alongside my tech pursuits, I’ve developed a keen interest in finance. I’m actively explore to manage, grow, and invest my finances, understanding the importance of financial independence.
+                      As a Machine Learning Intern at DiffuseAI, I worked with Open Source AI models, integrating them into web applications with Flask.
                     </p>
                   </div>
 
                   <div className="p-6 bg-muted/20 rounded-lg shadow-md">
                     <h3 className="text-xl font-semibold text-primary">✍️ Blog Writer on Medium</h3>
                     <p>
-                      As a tech and finance enthusiast, I write about what I learn and understand in both tech and finance with passion, which fuels my curiosity even further.
+                      I document my tech & finance explorations on Medium, sharing knowledge and insights with a broader audience.
                     </p>
                   </div>
                 </div>
               </div>
 
               <p className="text-center text-lg font-medium text-primary mt-8">
-                Thank you for taking the time to know about me. I look forward to connecting, learning, and collaborating with other enthusiasts.
+                Thank you for taking the time to learn about me. I look forward to connecting and collaborating with fellow enthusiasts!
               </p>
             </motion.div>
           </div>
