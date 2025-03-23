@@ -10,10 +10,10 @@ const projects = [
   {
     title: "Loyola Admission 2K25",
     description: "Develop a Admission Form for Loyola College of Arts & Science, Mettala.",
-    technologies: ["React", "Express.js", "Node.js", "PostgreSQL"],
+    technologies: ["React.js", "Express.js", "Node.js", "PostgreSQL"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/Loyola-Admission-2K25",
     github: "https://github.com/anandsundaramoorthysa/Loyola-Admission-2K25",
-    demo: "",
+    demo: "https://loyola-admission-2k25.vercel.app/",
     featured: false
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     technologies: ["Org Mode", "Emacs Lisp", "CSS"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/goldayan.github.io",
     github: "https://github.com/anandsundaramoorthysa/goldayan.github.io",
-    demo: "",
+    demo: "https://anandsundaramoorthysa.github.io/",
     featured: false
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     technologies: ["React", "TypeScript", "Tailwind CSS", "ShadCN/UI", "Framer Motion"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/Anand-Portfolio",
     github: "https://github.com/anandsundaramoorthysa/Anand-Portfolio",
-    demo: "https://anandsundaramoorthysa.github.io/",
+    demo: "https://anand.jigg.win/",
     featured: false
   }
 ];
