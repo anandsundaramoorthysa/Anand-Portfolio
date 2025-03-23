@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 import PageTransition from "@/components/PageTransition";
 import { motion, useInView } from "framer-motion";
@@ -28,12 +27,14 @@ export default function About() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
+            {/* Left Side - Two Images */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="md:col-span-5 flex justify-center md:justify-end"
+              className="md:col-span-5 flex flex-col items-center md:items-end space-y-6"
             >
+              {/* First Image */}
               <div className="relative group hover-lift">
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent rounded-lg transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
                 <div className="relative rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 aspect-[3/4] w-full max-w-sm bg-muted/30">
@@ -48,8 +49,25 @@ export default function About() {
                   </div>
                 </div>
               </div>
+
+              {/* Second Image (Newly Added) */}
+              <div className="relative group hover-lift">
+                <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 to-transparent rounded-lg transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
+                <div className="relative rounded-lg overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 aspect-[3/4] w-full max-w-sm bg-muted/30">
+                  <img
+                    src="Anand3.jpg" /* Replace with actual image path */
+                    alt="ANAND SUNDARAMOORTHY SA"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <h3 className="text-white font-medium text-lg">ANAND SUNDARAMOORTHY SA</h3>
+                  </div>
+                </div>
+              </div>
             </motion.div>
 
+            {/* Right Side - About Me Text */}
             <motion.div
               ref={textRef}
               initial={{ opacity: 0, x: 20 }}
@@ -87,14 +105,6 @@ export default function About() {
                 <p>
                   📝 <strong>𝐏𝐫𝐨𝐦𝐩𝐭 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 & 𝐀𝐈 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧</strong> <br />
                   As a Prompt Engineer, I specialize in crafting high-quality prompts for optimizing AI interactions. By understanding model behaviors, I fine-tune prompts to enhance accuracy and generate meaningful responses.
-                </p>
-                <p>
-                  💼 <strong>𝐅𝐢𝐧𝐚𝐧𝐜𝐞 𝐄𝐧𝐭𝐡𝐮𝐬𝐢𝐚𝐬𝐭</strong> <br />
-                  Alongside my tech pursuits, I’ve developed a keen interest in finance. I actively explore ways to manage, grow, and invest my finances, understanding the importance of financial independence.
-                </p>
-                <p>
-                  ✍️ <strong>𝐁𝐥𝐨𝐠 𝐖𝐫𝐢𝐭𝐞𝐫 𝐨𝐧 𝐌𝐞𝐝𝐢𝐮𝐦</strong> <br />
-                  As a tech and finance enthusiast, I write about what I learn and understand in both fields with passion, which fuels my curiosity even further.
                 </p>
                 <p>
                   Thank you for taking the time to know about me. I look forward to connecting, learning, and collaborating with other enthusiasts.
