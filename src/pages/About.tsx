@@ -97,7 +97,7 @@ export default function About() {
                   <div className="p-6 bg-muted/20 rounded-lg shadow-md">
                     <h3 className="text-xl font-semibold text-primary">💼 Finance Enthusiast</h3>
                     <p>
-                      Beyond tech, I explore finance—investing, managing assets, and understanding financial independence in the modern economy.
+                    Alongside my tech pursuits, I’ve developed a keen interest in finance. I’m actively explore to manage, grow, and invest my finances, understanding the importance of financial independence.
                     </p>
                   </div>
                 </div>
