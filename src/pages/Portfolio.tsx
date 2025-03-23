@@ -21,7 +21,7 @@ const projects = [
     description: "Goldayan is a portfolio and blog website for Gold Ayyanar, where I redesigned the CSS to creatively represent 'Gold' in my unique style.",
     technologies: ["Org Mode", "Emacs Lisp", "CSS"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/goldayan.github.io",
-    github: "https://github.com/anandsundaramoorthysa/goldayan.github.io",
+    github: "https://github.com/anandsundaramoorthysa/anandsundaramoorthysa.github.io",
     demo: "https://anandsundaramoorthysa.github.io/",
     featured: false
   },
