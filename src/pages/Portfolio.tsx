@@ -82,7 +82,7 @@ export default function Projects() {
                   </div>
                   <CardHeader className="pb-2">
                     <CardTitle>{project.title}</CardTitle>
-                    <CardDescription className="line-clamp-2">{project.description}</CardDescription>
+                    <CardDescription className="line-clamp-3">{project.description}</CardDescription>
                   </CardHeader>
                   <CardContent className="flex-grow">
                     <div className="flex flex-wrap gap-2 mt-1">
