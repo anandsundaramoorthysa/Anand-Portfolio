@@ -1,73 +1,90 @@
-
 import { motion } from "framer-motion";
-import { Send } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Calendar } from "lucide-react";
+import { useState, useEffect, CSSProperties } from 'react';
 
 const ContactForm = () => {
+  const calLink = "anandsundaramoorthysa";
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const isDesktop = windowWidth >= 640; // Small breakpoint
+  const imageSizeSmall = '96px';
+  const imageSizeLarge = '160px';
+
+  const imageContainerStyle: CSSProperties = {
+    borderRadius: '50%',
+    overflow: 'hidden',
+    width: imageSizeSmall,
+    height: imageSizeSmall,
+    ...(windowWidth >= 768 && { // Medium breakpoint
+      width: imageSizeLarge,
+      height: imageSizeLarge,
+    }),
+    marginBottom: '1rem',
+  };
+
+  const infoSectionStyle: CSSProperties = {
+    textAlign: 'center',
+    marginBottom: '1rem',
+  };
+
+  const handleBookMeeting = () => {
+    window.open(`https://cal.com/${calLink}`, "_blank");
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5, delay: 0.4 }}
-      className="p-6 rounded-lg border border-border bg-background/50 shadow-sm"
+      className="p-4 sm:p-8 md:p-12 rounded-lg border border-border shadow-md overflow-hidden flex flex-col items-center text-center"
     >
-      <h2 className="text-2xl font-semibold mb-6">Send Message</h2>
-      
-      <form className="space-y-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium mb-1">
-              Your Name
-            </label>
-            <input
-              type="text"
-              id="name"
-              className="w-full px-4 py-2 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/50"
-              placeholder="John Doe"
-            />
-          </div>
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium mb-1">
-              Your Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              className="w-full px-4 py-2 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/50"
-              placeholder="john@example.com"
-            />
-          </div>
-        </div>
-        
-        <div>
-          <label htmlFor="subject" className="block text-sm font-medium mb-1">
-            Subject
-          </label>
-          <input
-            type="text"
-            id="subject"
-            className="w-full px-4 py-2 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/50"
-            placeholder="How can I help you?"
-          />
-        </div>
-        
-        <div>
-          <label htmlFor="message" className="block text-sm font-medium mb-1">
-            Message
-          </label>
-          <textarea
-            id="message"
-            rows={6}
-            className="w-full px-4 py-2 rounded-md border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none"
-            placeholder="Write your message here..."
-          ></textarea>
-        </div>
-        
-        <Button type="button" size="lg" className="w-full group">
-          Send Message
-          <Send className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-        </Button>
-      </form>
+      <h2 className="text-2xl sm:text-3xl font-semibold text-primary mb-8 sm:mb-12">
+        Schedule a Meeting
+      </h2>
+
+      {/* Image Container */}
+      <div
+        className="rounded-full overflow-hidden"
+        style={imageContainerStyle}
+      >
+        <img
+          src="favicon.ico"
+          alt="Anand Sundaramoorthy SA"
+          className="object-cover w-full h-full"
+        />
+      </div>
+
+      {/* Info Section */}
+      <div
+        className="sm:text-left"
+        style={infoSectionStyle}
+      >
+        <h3 className="font-semibold text-lg sm:text-xl text-foreground mb-2">Anand Sundaramoorthy SA</h3>
+        <p className="text-foreground/70 text-base sm:text-lg">
+          LCM'25 | Tech & Finance Enthusiast | Blog Writer | Developer & Prompt Engineer | Explore Which I Love
+        </p>
+      </div>
+
+      {/* Button */}
+      <button
+        onClick={handleBookMeeting}
+        className="relative w-full py-4 sm:py-5 rounded-md bg-primary text-primary-foreground font-semibold text-lg transition-all duration-200 hover:shadow-lg hover:bg-primary/80 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1 active:bg-primary/90 flex items-center justify-center space-x-3"
+      >
+        <Calendar className="h-6 sm:h-7 w-6 sm:w-7" />
+        <span>Book a Meeting on Cal.com</span>
+      </button>
     </motion.div>
   );
 };
