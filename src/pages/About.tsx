@@ -14,7 +14,7 @@ export default function About() {
 
   return (
     <PageTransition>
-      <section className="py-16 px-6 md:px-12 bg-background">
+      <section className="py-16 px-6 md:px-12">
         <div className="max-w-7xl mx-auto">
           {/* Title Section */}
           <motion.div
@@ -104,7 +104,7 @@ export default function About() {
                   },
                   {
                     title: "✍️ Blog Writer on Medium",
-                    text: "I document my tech & finance explorations on Medium, sharing knowledge and insights with a broader audience.",
+                    text: "As a tech and finance enthusiast, I write about what I learn and understand in both tech and finance with passion, which fuels my curiosity even further.",
                   },
                 ].map((item, index) => (
                   <motion.div
@@ -119,7 +119,7 @@ export default function About() {
               </div>
 
               <p className="text-center text-lg font-medium text-primary mt-8">
-                Thank you for taking the time to learn about me. I look forward to connecting and collaborating with fellow enthusiasts!
+                Thank you for taking the time to know about me. I look forward to connecting and collaborating with fellow enthusiasts!
               </p>
             </motion.div>
           </div>

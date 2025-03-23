@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "git push && vite build && echo anand.jigg.win > dist/CNAME && copy dist\\index.html dist\\404.html && gh-pages -d dist",
-    "as": "git acm \"New Update\" && npm run deploy"
+    "as": "git acm \"`✨ Refactor About page and add 404 page with new design and components`\" && npm run deploy"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

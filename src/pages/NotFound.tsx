@@ -1,7 +1,6 @@
-
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeftCircle, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -10,38 +9,78 @@ const NotFound = () => {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = "404 Error | Anand Portfolio";
-    console.error(
-      "404 Error: User attempted to access non-existent route:",
-      location.pathname
-    );
+    document.title = "404 | Page Not Available - Anand Portfolio";
+    console.error("⚠️ 404 Error: User attempted to access:", location.pathname);
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background px-6 py-24">
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.9 }}
+    <div className="min-h-screen flex items-center justify-center px-6 py-16">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="text-center max-w-md"
+        className="max-w-lg w-full p-10 rounded-lg shadow-lg text-center border border-border"
       >
-        <h1 className="text-8xl font-bold mb-4 text-primary">404</h1>
+        {/* Enlarged Profile Image in a Circle */}
         <motion.div
-          initial={{ width: 0 }}
-          animate={{ width: "100%" }}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-primary shadow-lg"
+        >
+          <img
+            src="/favicon.ico"
+            alt="Anand Sundaramoorthy SA"
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
+
+        {/* 404 Number */}
+        <motion.h1
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="h-1 bg-primary/30 rounded-full mx-auto mb-6"
-        />
-        <h2 className="text-2xl font-semibold mb-4">Page Not Found</h2>
-        <p className="text-muted-foreground mb-8">
-          Sorry, the page you're looking for doesn't exist or has been moved.
-        </p>
-        <Button asChild size="lg" className="group">
-          <Link to="/">
-            <ArrowLeft className="mr-2 h-4 w-4 transition-transform group-hover:-translate-x-1" />
-            Back to Home
-          </Link>
-        </Button>
+          className="text-6xl font-extrabold text-primary mt-4"
+        >
+          404
+        </motion.h1>
+
+        {/* Message */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="mt-3"
+        >
+          <h2 className="text-2xl font-semibold text-foreground">Hi 👋</h2>
+          <p className="mt-2 text-lg text-muted-foreground">
+            This page is not available. I think you tried to access an unavailable page.
+          </p>
+        </motion.div>
+
+        {/* Buttons */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mt-6 flex flex-col gap-4"
+        >
+          {/* Back to Home Button */}
+          <Button asChild size="lg" className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-md">
+            <Link to="/" aria-label="Back to Home">
+              <ArrowLeftCircle className="mr-2 h-5 w-5 transition-transform group-hover:-translate-x-1" />
+              Back to Home
+            </Link>
+          </Button>
+
+          {/* Connect with Me Button */}
+          <Button asChild size="lg" className="group bg-secondary hover:bg-secondary/90 text-secondary-foreground shadow-md">
+            <Link to="/contact" aria-label="Connect with Me">
+              <MessageCircle className="mr-2 h-5 w-5 transition-transform group-hover:scale-110" />
+              Connect with Me
+            </Link>
+          </Button>
+        </motion.div>
       </motion.div>
     </div>
   );
