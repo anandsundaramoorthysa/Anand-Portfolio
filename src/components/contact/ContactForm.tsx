@@ -18,7 +18,7 @@ const ContactForm = () => {
     };
   }, []);
 
-  const isDesktop = windowWidth >= 640; // Small breakpoint
+  const isDesktop = windowWidth >= 640;
   const imageSizeSmall = '96px';
   const imageSizeLarge = '160px';
 
@@ -27,7 +27,7 @@ const ContactForm = () => {
     overflow: 'hidden',
     width: imageSizeSmall,
     height: imageSizeSmall,
-    ...(windowWidth >= 768 && { // Medium breakpoint
+    ...(windowWidth >= 768 && {
       width: imageSizeLarge,
       height: imageSizeLarge,
     }),
@@ -54,7 +54,6 @@ const ContactForm = () => {
         Schedule a Meeting
       </h2>
 
-      {/* Image Container */}
       <div
         className="rounded-full overflow-hidden"
         style={imageContainerStyle}
@@ -66,7 +65,6 @@ const ContactForm = () => {
         />
       </div>
 
-      {/* Info Section */}
       <div
         className="sm:text-left"
         style={infoSectionStyle}
@@ -77,7 +75,6 @@ const ContactForm = () => {
         </p>
       </div>
 
-      {/* Button */}
       <button
         onClick={handleBookMeeting}
         className="relative w-full py-4 sm:py-5 rounded-md bg-primary text-primary-foreground font-semibold text-lg transition-all duration-200 hover:shadow-lg hover:bg-primary/80 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1 active:bg-primary/90 flex items-center justify-center space-x-3"

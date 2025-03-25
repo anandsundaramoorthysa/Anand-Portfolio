@@ -21,7 +21,6 @@ const NotFound = () => {
         transition={{ duration: 0.5 }}
         className="max-w-lg w-full p-10 rounded-lg shadow-lg text-center border border-border"
       >
-        {/* Enlarged Profile Image in a Circle */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -35,7 +34,6 @@ const NotFound = () => {
           />
         </motion.div>
 
-        {/* 404 Number */}
         <motion.h1
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -45,7 +43,6 @@ const NotFound = () => {
           404
         </motion.h1>
 
-        {/* Message */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -58,14 +55,12 @@ const NotFound = () => {
           </p>
         </motion.div>
 
-        {/* Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-6 flex flex-col gap-4"
         >
-          {/* Back to Home Button */}
           <Button asChild size="lg" className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-md">
             <Link to="/" aria-label="Back to Home">
               <ArrowLeftCircle className="mr-2 h-5 w-5 transition-transform group-hover:-translate-x-1" />
@@ -73,7 +68,6 @@ const NotFound = () => {
             </Link>
           </Button>
 
-          {/* Connect with Me Button */}
           <Button asChild size="lg" className="group bg-secondary hover:bg-secondary/90 text-secondary-foreground shadow-md">
             <Link to="/contact" aria-label="Connect with Me">
               <MessageCircle className="mr-2 h-5 w-5 transition-transform group-hover:scale-110" />

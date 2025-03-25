@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
@@ -10,7 +9,6 @@ export default function HeroSection() {
   return (
     <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 relative">
       <div className="max-w-7xl mx-auto w-full flex md:flex-row flex-col items-center">
-        {/* Image Column */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -29,8 +27,6 @@ export default function HeroSection() {
           </div>
 
         </motion.div>
-
-        {/* Content Column */}
         <div className="md:w-1/2 w-full">
           <div className="flex flex-col space-y-8 md:space-y-12">
             <motion.div

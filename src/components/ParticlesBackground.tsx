@@ -1,4 +1,3 @@
-
 import { useCallback, useEffect, useState } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -8,13 +7,11 @@ const ParticlesBackground = () => {
   const [theme, setTheme] = useState<"light" | "dark">("dark");
   
   useEffect(() => {
-    // Get initial theme
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
     if (savedTheme) {
       setTheme(savedTheme);
     }
     
-    // Listen for theme changes
     const handleStorageChange = () => {
       const currentTheme = localStorage.getItem("theme") as "light" | "dark" | null;
       if (currentTheme) {
@@ -24,7 +21,6 @@ const ParticlesBackground = () => {
     
     window.addEventListener("storage", handleStorageChange);
     
-    // Custom event for theme changes from within the app
     const handleThemeChange = (e: CustomEvent) => {
       setTheme(e.detail.theme);
     };

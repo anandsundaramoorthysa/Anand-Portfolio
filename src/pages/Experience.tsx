@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from "react";
 import PageTransition from "@/components/PageTransition";
 import { motion, useInView } from "framer-motion";
@@ -26,12 +25,10 @@ const ExperienceItem = ({
         index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse md:text-right"
       }`}
     >
-      {/* Timeline dot */}
       <div className="absolute z-10 left-4 md:left-1/2 md:-ml-3 mt-1.5 md:mt-0 w-6 h-6 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
         <div className="w-2 h-2 rounded-full bg-primary"></div>
       </div>
       
-      {/* Content */}
       <div 
         className={`ml-12 md:ml-0 md:w-1/2 ${
           index % 2 === 0 ? "md:pr-12" : "md:pl-12"
@@ -102,10 +99,8 @@ export default function Experience() {
           </motion.div>
           
           <div className="mt-16 relative">
-            {/* Timeline line */}
             <div className="absolute top-0 bottom-0 left-4 md:left-1/2 md:-ml-0.5 w-0.5 bg-border"></div>
             
-            {/* Experience items */}
             <div className="space-y-16">
               {experiences.map((exp, index) => (
                 <ExperienceItem 

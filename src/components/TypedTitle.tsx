@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { 
   Code, BookText, Lightbulb, TrendingUp
@@ -27,17 +26,14 @@ const TypedTitle = () => {
     
     const timer = setTimeout(() => {
       if (!isDeleting) {
-        // Typing
         setDisplayText(currentTitle.substring(0, displayText.length + 1));
         setTypingSpeed(100);
         
         if (displayText === currentTitle) {
-          // Start deleting after a pause
           setTypingSpeed(1500);
           setIsDeleting(true);
         }
       } else {
-        // Deleting
         setDisplayText(currentTitle.substring(0, displayText.length - 1));
         setTypingSpeed(50);
         

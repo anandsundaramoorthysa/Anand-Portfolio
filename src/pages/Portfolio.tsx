@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Github, ExternalLink, Code, FastForward } from "lucide-react";
 
-// Project data
 const projects = [
   {
     title: "Loyola Admission 2K25",

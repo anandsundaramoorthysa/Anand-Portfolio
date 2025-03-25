@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -60,7 +59,6 @@ export default function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-1">
           {navItems.map((item) => (
             <Link
@@ -84,7 +82,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Navigation Button */}
         <div className="flex md:hidden items-center">
           <ThemeToggle />
           <Button
@@ -98,8 +95,6 @@ export default function Navbar() {
           </Button>
         </div>
       </div>
-
-      {/* Mobile Navigation Menu */}
       <div
         className={cn(
           "fixed inset-0 top-16 backdrop-blur-md z-40 transform transition-transform duration-300 ease-in-out md:hidden",

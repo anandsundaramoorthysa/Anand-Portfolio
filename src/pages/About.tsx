@@ -16,7 +16,6 @@ export default function About() {
     <PageTransition>
       <section className="py-16 px-6 md:px-12">
         <div className="max-w-7xl mx-auto">
-          {/* Title Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -27,7 +26,6 @@ export default function About() {
             <div className="mt-3 h-1 w-20 bg-primary mx-auto rounded-full"></div>
           </motion.div>
 
-          {/* Centered TypedTitle & Quote Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -42,9 +40,7 @@ export default function About() {
             </p>
           </motion.div>
 
-          {/* First Section - Image Left, Content Right */}
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mt-10">
-            {/* Image */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -67,7 +63,6 @@ export default function About() {
               </div>
             </motion.div>
 
-            {/* Content Section */}
             <motion.div
               ref={textRef}
               initial={{ opacity: 0, x: 20 }}
@@ -79,7 +74,6 @@ export default function About() {
                 Howdy guys! I'm a passionate Developer 👨🏻‍💻 & Prompt Engineer.
               </p>
 
-              {/* Cards Section */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {[
                   {
