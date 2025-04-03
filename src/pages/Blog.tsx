@@ -12,6 +12,13 @@ export default function Blog() {
 
   const blogPosts = [
     {
+      "title": "Books vs. Audiobooks: Which One is Best?",
+      "excerpt": "Which Book is best to learn, Books or Audio Books. Check it out my blog to know more about it...",
+      "date": "April 4, 2025",
+      "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Uoj-cc8zbosK62eT_qc9sw.png",
+      "url": "https://medium.com/@anandsundaramoorthysa/books-vs-audiobooks-which-one-is-best-5429667a0609"
+    },     
+    {
       "title": "Lulu Mall: More Than Shoppings🛒 — A Business Viewpoint",
       "excerpt": "\"Use people's laziness and become rich.\" If someone can capitalize on people's laziness, they can become rich. Check my blog...",
       "date": "March 18, 2025",
@@ -46,13 +53,6 @@ export default function Blog() {
       image: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Wf1fUi5nnUja-mrI-H3pmg.jpeg",
       url: "https://medium.com/@anandsundaramoorthysa/the-evolution-backclash-of-developers-using-chatgpt-20ddfaa698e1"
     },
-    {
-      title: "ChatGPT & RLHF",
-      excerpt: "Did you think about it? How does the ChatGPT give more and more data as it is mostly accurate? The Blog is about that only....",
-      date: "January 7, 2025",
-      image: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*7Soiv4DIWvMe3PhiJfttHA.jpeg",
-      url: "https://medium.com/@anandsundaramoorthysa/chatgpt-rlhf-29711a0a1469"
-    }
   ];  
 
   return (
