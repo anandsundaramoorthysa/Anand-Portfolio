@@ -12,6 +12,13 @@ export default function Blog() {
 
   const blogPosts = [
     {
+      "title": "The Impact of AI Tools Like Lovable.dev on Developers",
+      "excerpt": "To be honest, I was shocked when I used Lovable.dev. It made me fearful about job prospects. To know more about it. Check...",
+      "date": "April 4, 2025",
+      "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*EtCYmx4IehmP-qkjTve8bw.png",
+      "url": "https://medium.com/@anandsundaramoorthysa/the-impact-of-ai-tools-like-lovable-dev-on-developers-3953eb18485f"
+    },    
+    {
       "title": "Books vs. Audiobooks: Which One is Best?",
       "excerpt": "Which Book is best to learn, Books or Audio Books. Check it out my blog to know more about it...",
       "date": "April 4, 2025",
@@ -45,13 +52,6 @@ export default function Blog() {
       date: "March 7, 2025",
       image: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*__uylPhQvcbY76Y1Cj18WQ.jpeg",
       url: "https://medium.com/@anandsundaramoorthysa/prompting-my-life-ef76d6d34681"
-    },
-    {
-      title: "The Evolution & Backlash of Developers Using ChatGPT",
-      excerpt: "What are the Positives and negatives faced by Developers by using ChatGPT? Check my blog for more details.",
-      date: "January 8, 2025",
-      image: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Wf1fUi5nnUja-mrI-H3pmg.jpeg",
-      url: "https://medium.com/@anandsundaramoorthysa/the-evolution-backclash-of-developers-using-chatgpt-20ddfaa698e1"
     },
   ];  
 
