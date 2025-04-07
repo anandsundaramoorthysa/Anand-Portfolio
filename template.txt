@@ -1,0 +1,22 @@
+const TheImpactOfAIToolsLikeLovableDevOnDevelopersContent = () => {
+  return [
+    { type: 'paragraph', value: 'To be honest, I was shocked when I first used Lovable.dev. It made me fearful about job prospects. To know more about it, let\'s dive deeper.' },
+    { type: 'heading', level: 2, value: 'What is Lovable.dev?' },
+    { type: 'paragraph', value: 'Lovable.dev is an AI-powered tool designed to assist software developers in various tasks. It can help with code generation, debugging, and even suggesting improvements to existing code. Its aim is to streamline the development process and boost productivity.' },
+    { type: 'heading', level: 3, value: 'The Initial Shock and Fear' },
+    { type: 'paragraph', value: 'When I first tried Lovable.dev, I was amazed by its capabilities. It could generate code snippets with remarkable accuracy and even understand complex requirements. This led to an initial fear – would AI tools like this eventually replace human developers?' },
+    { type: 'paragraph', value: 'However, after spending more time with the tool and reflecting on the nature of software development, my perspective shifted. While AI can undoubtedly automate certain aspects of coding, the creative problem-solving, architectural design, and nuanced understanding of user needs still require human intellect and empathy.' },
+    { type: 'image', src: 'URL_TO_YOUR_IMAGE', alt: 'Description of the image' }, // Example image
+    { type: 'heading', level: 2, value: 'The Evolving Role of Developers' },
+    { type: 'paragraph', value: 'Instead of viewing AI as a replacement, I now see it as a powerful assistant. Tools like Lovable.dev can handle repetitive tasks, allowing developers to focus on more challenging and strategic aspects of their work. This means the role of a developer is likely to evolve, requiring skills in guiding and leveraging AI rather than just writing code from scratch.' },
+    { type: 'list', items: [
+      'Increased Productivity: AI can speed up the coding process.',
+      'Reduced Errors: AI can help identify potential bugs early on.',
+      'Focus on Innovation: Developers can spend more time on high-level problem-solving.',
+    ]},
+    { type: 'video', src: 'YOUTUBE_EMBED_URL' }, // Example YouTube video
+    { type: 'paragraph', value: 'In conclusion, while the initial impact of AI tools like Lovable.dev might be unsettling, it\'s more likely that they will augment our abilities as developers, leading to a more efficient and innovative future for software development.' },
+  ];
+ };
+
+ export default TheImpactOfAIToolsLikeLovableDevOnDevelopersContent;
