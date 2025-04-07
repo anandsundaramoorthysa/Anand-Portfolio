@@ -1,0 +1,26 @@
+const blogContent = [
+    { type: 'paragraph', value: 'ChatGPT made a revolution in human life, it changed many of their lives. Two Months ago I saw a great example of it. Using ChatGPT & LinkedIn, businessman Iwan Richard — Founder & CEO of Reneonix should bring their business to the next level. To know more about their journey check the Being Scenius with Sriram Selvan Podcast the link is below 👇' },
+    { type: 'video', src: 'https://www.youtube.com/embed/hXbU8nLBLGY?si=euqrmbFhLJcm7l3D', alt: 'Being Scenius with Sriram Selvan Podcast' }, 
+    { type: 'paragraph', value: 'ChatGPT also plays an important role in my learning journey. So, I like to write a blog about “The Evolution & Backclash of Developers Using ChatGPT”.' },
+    { type: 'paragraph', value: '<strong>Note:</strong> Here I write the blog from my perspective, it may be changed for you.' },
+    { type: 'heading', level: 2, value: 'What makes the 100 Million People use the ChatGPT actively in just two months after their launching?' },
+    { type: 'paragraph', value: 'Before the arrival of ChatGPT, the Internet plays a key role in learning anything. The process of visiting many websites and reading many things such as Blogs and articles is good for gaining knowledge. But it consumes more time and makes them tired. ChatGPT changes all things in time of arrival. It gives solutions for most things and explains easily in a way even understand by the children. But at the time of arrival, it does not give solutions for the present-day related questions. But that should be solved and made possible by using various methodologies and advancing the ChatGPT.' },
+    { type: 'paragraph', value: 'But only that reason for using ChatGPT by a million users?' },
+    { type: 'paragraph', value: 'No, ChatGPT has been used by various people for various things. Like learning anything as easily, drafting mail professionally, more and more. Due to the tuning of the AI Model as perfect, they should not answer for bad things. Such a question is related to do crimes. That sounds interesting, right? It has done all things as good with the restrictions of helping bad things. So, it’s good only.' },
+    { type: 'paragraph', value: 'To be frank no. But Why?' },
+    { type: 'paragraph', value: 'Because ChatGPT makes the work easy. For Developers, it gives the basic code and even gives good code then the beginner level developers. However, the developers need sufficient knowledge to explain that code and fix the bug given by ChatGPT. Even Foreign IT Companies are allowed to use ChatGPT and other AI for development. But they expect basic knowledge at the time of their entry into their company. They did not like to hire persons who just copied and pasted the code without the knowledge of how the coding works.' },
+    { type: 'paragraph', value: 'The problem arises for the beginners. One who starts using ChatGPT in their earlier stage is affected in two ways. First, they change them as lazy to code. Due to laziness after some time they struggle to code without ChatGPT. So, they also lose their confidence themself. Like “I Should not code as well or I am not a good developer” and due to laziness, they lose their problem-solving skills. Even the person who has good knowledge in the time of going to the companies for an interview, due to their high dependence on ChatGPT in time of practice, lacks code at the selection round. Second, in time of start learning no one is perfect. No one should develop a website like “Netflix” as straightly. But the ChatGPT had been done that. Here they imagine the AI should replicate the Developer\'s work as soon. Maybe it is possible but for that also need humans as a main player and just AI as a tool. Because it works by pre-training and scraping data from the web.' },
+    { type: 'heading', level: 2, value: 'What is the Solution?' },
+    { type: 'paragraph', value: 'Using AI such as ChatGPT as a tool makes no trouble. However using that as an overload makes the developers lazy, which makes them lose their problem-solving skills.' },
+    { type: 'paragraph', value: 'Using ChatGPT at the time of beginning the journey in coding causes more trouble than expected. Why? Because it gives unnecessary thinking, does not help to gain knowledge & more. The Error makes the developer\'s life as good. So, trying to solve the error yourself in the beginning gives a healthy journey.' },
+    { type: 'paragraph', value: 'In conclusion using AI in development as a tool makes life as more easier, helps debug easily, and is enormously helpful usage. But using it over time gives only trouble.' },
+    { type: 'paragraph', value: 'When feel this content is valuable follow me for more upcoming Blogs.' },
+    { type: 'heading', level: 2, value: 'Connect with Me:' },
+    { type: 'list', items: [
+      '<strong>LinkedIn:</strong> Anand Sundaramoorthy',
+      '<strong>Instagram:</strong> @anandsundaramoorthysa',
+      '<strong>Email:</strong> sanand03072005@gmail.com',
+    ]},
+   ];
+  
+   export default blogContent;
