@@ -31,7 +31,7 @@ import { useEffect, useState } from "react";
    "date": "April 4, 2025",
    "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*EtCYmx4IehmP-qkjTve8bw.png",
    "url": "https://medium.com/@anandsundaramoorthysa/the-impact-of-ai-tools-like-lovable-dev-on-developers-3953eb18485f",
-   "category": "Tech",
+   "category": ["Tech"],
    "slug": generateSlug("13the-impact-of-ai-tools-like-lovable-dev-on-developers")
   },
   {
@@ -40,7 +40,7 @@ import { useEffect, useState } from "react";
    "date": "April 4, 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Uoj-cc8zbosK62eT_qc9sw.png",
    "url": "https://medium.com/@anandsundaramoorthysa/books-vs-audiobooks-which-one-is-best-5429667a0609",
-   "category": "Others",
+   "category": ["Others"],
    "slug": generateSlug("12books-vs-audiobooks-which-one-is-best")
   },
   {
@@ -49,7 +49,7 @@ import { useEffect, useState } from "react";
    "date": "March 18, 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*z-4VgP_aYX3ciGLLThZvFw.jpeg",
    "url": "https://medium.com/@anandsundaramoorthysa/lulu-mall-more-than-shoppings-a-business-viewpoint-763c121549f8",
-   "category": "Finance",
+   "category": ["Finance"],
    "slug": generateSlug("11lulu-mall-more-than-shoppings-a-business-viewpoint")
   },
   {
@@ -58,7 +58,7 @@ import { useEffect, useState } from "react";
    "date": "March 18, 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*BuBhny8k374jrc90t9UGjA.jpeg",
    "url": "https://medium.com/@anandsundaramoorthysa/emacs-org-mode-in-windows-95922d3233b3",
-   "category": "Tech",
+   "category": ["Tech"],
    "slug": generateSlug("10emacs-org-mode-in-windows")
   },
   {
@@ -67,7 +67,7 @@ import { useEffect, useState } from "react";
    "date": "March 9, 2025",
    "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*HVlvCWH5s8r3tmUeZjVPhw.jpeg",
    "url": "https://medium.com/@anandsundaramoorthysa/how-failure-feels-bb07aaabbb5c",
-   "category": "Others",
+   "category": ["Others"],
    "slug": generateSlug("9how-failure-feels")
   },
   {
@@ -76,7 +76,7 @@ import { useEffect, useState } from "react";
    "date": "March 7, 2025",
    "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*__uylPhQvcbY76Y1Cj18WQ.jpeg",
    "url": "https://medium.com/@anandsundaramoorthysa/prompting-my-life-ef76d6d34681",
-   "category": "Tech",
+   "category": ["Tech", "Others"],
    "slug": generateSlug("8prompting-my-life")
   },
   {
@@ -85,7 +85,7 @@ import { useEffect, useState } from "react";
    "date": "February 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Wf1fUi5nnUja-mrI-H3pmg.jpeg",
    "url": "https://medium.com/@anandsundaramoorthysa/the-evolution-backclash-of-developers-using-chatgpt-20ddfaa698e1",
-   "category": "Tech",
+   "category": ["Tech"],
    "slug": generateSlug("7the-evolution-backclash-of-developers-using-chatgpt")
   },
   {
@@ -94,7 +94,7 @@ import { useEffect, useState } from "react";
    "date": "February 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*xqil4m7ixyLMNJYPbpouUg.png",
    "url": "https://medium.com/@anandsundaramoorthysa/chatgpt-rlhf-29711a0a1469",
-   "category": "Tech",
+   "category": ["Tech"],
    "slug": generateSlug("6chatgpt-rlhf")
   },
   {
@@ -103,7 +103,7 @@ import { useEffect, useState } from "react";
    "date": "February 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*tWf9cZSczdbRgA-m8zAbHw.png",
    "url": "https://medium.com/@anandsundaramoorthysa/neuralink-send-humans-to-the-next-level-97b30340b36a",
-   "category": "Tech",
+   "category": ["Tech"],
    "slug": generateSlug("5neuralink-send-humans-to-the-next-level")
   },
   {
@@ -112,7 +112,7 @@ import { useEffect, useState } from "react";
    "date": "January 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*10RECXGTH5NyaeBg5yD1pw.png",
    "url": "https://medium.com/nammaflutter/journey-of-the-stupid-explorer-in-flutter-namma-flutter-44a52a58b6b5",
-   "category": "Tech",
+   "category": ["Tech"],
    "slug": generateSlug("4journey-of-the-stupid-explorer-in-flutter-namma-flutter")
   },
   {
@@ -121,7 +121,7 @@ import { useEffect, useState } from "react";
    "date": "January 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*0baVApvLZXh9fPzJ",
    "url": "https://medium.com/@anandsundaramoorthysa/why-html-css-is-a-foundation-for-web-development-7593e6639b8b",
-   "category": "Tech",
+   "category": ["Tech"],
    "slug": generateSlug("3why-html-css-is-a-foundation-for-web-development")
   },
   {
@@ -130,7 +130,7 @@ import { useEffect, useState } from "react";
    "date": "January 2025",
    "image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/0*q7gRHJ5msc4yPRG7",
    "url": "https://medium.com/@anandsundaramoorthysa/whats-behind-rising-prices-inflation-in-simple-terms-46deb5e873ab",
-   "category": "Finance",
+   "category": ["Finance"],
    "slug": generateSlug("2whats-behind-rising-prices-inflation-in-simple-terms")
   },
   {
@@ -139,7 +139,7 @@ import { useEffect, useState } from "react";
    "date": "January 2025",
    "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*I31Q0NTBHUtuQ4bt",
    "url": "https://medium.com/@anandsundaramoorthysa/same-chip-varying-speed-the-mystery-behind-u-p-and-h-series-performance-0b64c70f4a55",
-   "category": "Tech",
+   "category": ["Tech"],
    "slug": generateSlug("1same-chip-varying-speed-the-mystery-behind-u-p-and-h-series-performance")
   }
  ];
@@ -148,8 +148,8 @@ const Blog = () => {
  const [filter, setFilter] = useState("all"); // Added the filter state
 
  const filteredBlogPosts = filter === "all"
-  ? blogPostsData
-  : blogPostsData.filter(post => post.category.toLowerCase() === filter.toLowerCase());
+ ? blogPostsData
+ : blogPostsData.filter(post => post.category.map(cat => cat.toLowerCase()).includes(filter.toLowerCase()));
 
  const [isDialogOpen, setIsDialogOpen] = useState(false);
  const [selectedBlog, setSelectedBlog] = useState(null);
