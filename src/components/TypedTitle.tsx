@@ -10,7 +10,7 @@ type TitleData = {
 
 const TypedTitle = () => {
   const titles: TitleData[] = [
-    { text: "Developer", icon: <Code className="h-6 w-6" /> },
+    { text: "Developer & Prompt Engineer", icon: <Code className="h-6 w-6" /> },
     { text: "Tech & Finance Enthusiast", icon: <TrendingUp className="h-6 w-6" /> },
     { text: "Passionate Learner", icon: <Lightbulb className="h-6 w-6" /> },
     { text: "Writer", icon: <BookText className="h-6 w-6" /> },
