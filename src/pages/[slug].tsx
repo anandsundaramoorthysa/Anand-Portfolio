@@ -2,13 +2,13 @@ import { useEffect, useState } from 'react';
  import PageTransition from '@/components/PageTransition';
  import { motion } from 'framer-motion';
  import { ArrowLeft } from 'lucide-react';
- import { useParams } from 'react-router-dom'; // If using react-router-dom
- import { blogPostsData } from './Blog'; // Import the blog data
- import React from 'react'; // Ensure React is imported
+ import { useParams } from 'react-router-dom'; 
+ import { blogPostsData } from './Blog';
+ import React from 'react'; 
 
  const BlogPostTemplate = () => {
   const { slug } = useParams();
-  const [postContent, setPostContent] = useState<Array<any> | null>(null); // Expecting an array of content objects
+  const [postContent, setPostContent] = useState<Array<any> | null>(null); 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [blogPostInfo, setBlogPostInfo] = useState(null);
@@ -21,7 +21,7 @@ import { useEffect, useState } from 'react';
     setLoading(true);
     import(`../blogs/${slug}.tsx`)
      .then((module) => {
-      setPostContent(() => module.default); // Now expecting an array
+      setPostContent(() => module.default); 
       setLoading(false);
      })
      .catch((err) => {
