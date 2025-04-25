@@ -25,6 +25,15 @@ import { useEffect, useState } from "react";
 
  // Export this for use in the [slug].tsx page
  export const blogPostsData = [
+    {
+     "title": "TamilKavi: Release of Python Package & Dataset",
+     "excerpt": "Take step to launch book to launch an Python Package & Dataset. If you are curious to know about that. Check this blog...",
+     "date": "April 25, 2025",
+     "image": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*4o7J6i3dBGan3hiLEcZxpg.png",
+     "url": "https://medium.com/@anandsundaramoorthysa/tamilkavi-release-of-python-package-dataset-6480acb2949a",
+     "category": ["Tech"],
+     "slug": generateSlug("14tamilkavi-release-of-python-package-and-dataset")
+    },
   {
    "title": "The Impact of AI Tools Like Lovable.dev on Developers",
    "excerpt": "To be honest, I was shocked when I used Lovable.dev. It made me fearful about job prospects. To know more about it. Check...",
@@ -166,7 +175,7 @@ const Blog = () => {
 
  const handleViewOnWebsite = () => {
   if (selectedBlog && selectedBlog.slug) {
-   window.location.href = `/blog/${selectedBlog.slug}`; // Adjust based on your routing
+   window.location.href = `/blog/${selectedBlog.slug}`; 
   }
   handleCloseDialog();
  };
