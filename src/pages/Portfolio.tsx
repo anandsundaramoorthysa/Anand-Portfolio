@@ -6,7 +6,7 @@ import { Github, ExternalLink, FastForward } from "lucide-react"; // Removed Cod
 
 const projectsData = [
   {
-    title: "TamilKavi Python Package",
+    title: "TamilKavi",
     description: "TamilKavi is a python package & Dataset.",
     technologies: ["Python"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/tamilkavi",
