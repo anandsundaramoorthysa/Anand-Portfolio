@@ -6,6 +6,26 @@ import { Github, ExternalLink, FastForward } from "lucide-react"; // Removed Cod
 
 const projectsData = [
   {
+    title: "TamilKavi Python Package",
+    description: "TamilKavi is a python package & A command-line tool for exploring a collection of Tamil poetry.",
+    technologies: ["Python"],
+    image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/tamilkavi",
+    github: "https://github.com/anandsundaramoorthysa/tamilkavi",
+    demo: "https://pypi.org/project/tamilkavi",
+    category: "others",
+    completionDate: "April 2025"
+  },
+  {
+    title: "TamilKavi Website",
+    description: "TamilKaviWebsite is an website used to describe about the TamilKavi as digitally & help to contribute.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Lucide React"],
+    image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/TamilKaviWebsite",
+    github: "https://github.com/anandsundaramoorthysa/TamilKaviWebsite",
+    demo: "https://tamilkavi.jigg.win/",
+    category: "web development",
+    completionDate: "April 2025"
+  },
+  {
     title: "Anand Portfolio",
     description: "A personal portfolio website showcasing my skills, projects, and blog posts.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "ShadCN/UI", "Framer Motion"],
