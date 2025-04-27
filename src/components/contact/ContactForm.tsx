@@ -71,7 +71,7 @@ const ContactForm = () => {
       >
         <h3 className="font-semibold text-lg sm:text-xl text-foreground mb-2">Anand Sundaramoorthy SA</h3>
         <p className="text-foreground/70 text-base sm:text-lg">
-          LCM'25 | Tech & Finance Enthusiast | Blog Writer | Developer & Prompt Engineer | Explore Which I Love
+          LCM'25 | Tech & Finance Enthusiast | Blog Writer | Developer & Prompt Engineer | Explore Which I Love | Unexpected Freelancer
         </p>
       </div>
 
