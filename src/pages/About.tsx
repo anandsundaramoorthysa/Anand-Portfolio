@@ -68,54 +68,60 @@ export default function About() {
               initial={{ opacity: 0, x: 20 }}
               animate={isTextInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="md:col-span-7 space-y-6 text-lg text-muted-foreground leading-relaxed"
+              className="md:col-span-7 space-y-8 text-lg leading-relaxed text-muted-foreground"
             >
-              <p className="text-lg font-medium text-center md:text-left">
-                Howdy guys! I'm a passionate Developer 👨🏻‍💻 & Prompt Engineer.
+              <p className="text-xl font-semibold text-center md:text-left text-primary">
+                Howdy folks! I'm a passionate Developer 👨🏻‍💻 & Prompt Engineer.
               </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
                   {
                     title: "💡 Tech Enthusiast & Explorer",
-                    text: "I explore technologies from Flutter and Firebase to Streamlit and AI/ML. Even Emacs & Org Mode for Static Site Generation. Learning & experimenting keeps me adaptable.",
-                  },
-                  {
-                    title: "🚀 Flutter & Firebase Journey",
-                    text: "My journey began as a Flutter Developer at Corizo. The experience of integrating Firebase services & building scalable mobile apps shaped my development career.",
+                    text: "I love exploring tools and technologies—Flutter, Firebase, Streamlit, AI/ML, even Emacs & Org Mode for SSG. Continuous learning keeps me agile in a fast-evolving tech world.",
                   },
                   {
                     title: "🤝 Community Engagement",
-                    text: "I contribute to KanchiLung, a Tamil tech community, and work on the TamilRulePy Python Package.",
+                    text: "I believe in sharing knowledge. I regularly attend meetups and connect with fellow tech enthusiasts to learn and grow together.",
+                  },
+                  {
+                    title: "🚀 Flutter & Firebase Journey",
+                    text: "My journey started with a Flutter Developer internship at Corizo. I gained real-world experience in building scalable apps and integrating Firebase services.",
                   },
                   {
                     title: "🤖 AI/ML with Flask",
-                    text: "As a Machine Learning Intern at DiffuseAI, I worked with Open Source AI models, integrating them into web applications with Flask.",
+                    text: "At DiffuseAI, I worked as an ML Intern on open-source AI models and built web integrations using Flask—turning theory into practical impact.",
                   },
                   {
                     title: "💼 Finance Enthusiast",
-                    text: "Alongside my tech pursuits, I actively explore ways to manage, grow, and invest my finances, understanding financial independence.",
+                    text: "Outside tech, I'm into personal finance—managing, growing, and investing money while learning about financial independence.",
                   },
                   {
-                    title: "✍️ Blog Writer on Medium",
-                    text: "As a tech and finance enthusiast, I write about what I learn and understand in both tech and finance with passion, which fuels my curiosity even further.",
+                    title: "✍️ Blogging on Medium",
+                    text: "I write about tech and finance with curiosity-driven passion. Medium is where I share what I learn and reflect on my journey.",
                   },
-                ].map((item, index) => (
+                  {
+                    title: "🛠️ Freelancing & Personal Branding",
+                    text: "I offer freelance services in web dev, LinkedIn optimization, and branding. Through Chennai Freelancers WhatsApp Group, get my first client in April. Currently helping my clients for a personal branding in LinkedIn.",
+                  },
+                ].map((item, idx) => (
                   <motion.div
-                    key={index}
-                    className="p-6 bg-muted/20 rounded-lg shadow-md flex flex-col h-full"
-                    whileHover={{ scale: 1.03 }}
+                    key={idx}
+                    whileHover={{ scale: 1.02 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                    className="p-5 bg-muted/10 rounded-xl shadow-sm border border-muted flex flex-col justify-between min-h-[200px]"
                   >
-                    <h3 className="text-xl font-semibold text-primary">{item.title}</h3>
-                    <p className="flex-grow">{item.text}</p>
+                    <h3 className="text-primary text-lg font-semibold mb-2">{item.title}</h3>
+                    <p className="text-base text-muted-foreground">{item.text}</p>
                   </motion.div>
                 ))}
               </div>
 
               <p className="text-center text-lg font-medium text-primary mt-8">
-                Thank you for taking the time to know about me. I look forward to connecting and collaborating with fellow enthusiasts!
+                Thank you for taking the time to know about me. I look forward to connecting, learning, and collaborating with other enthusiasts.
               </p>
             </motion.div>
+
           </div>
         </div>
       </section>
