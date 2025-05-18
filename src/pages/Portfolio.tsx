@@ -21,7 +21,7 @@ const projectsData = [
     technologies: ["React", "TypeScript", "Tailwind CSS", "Lucide React"],
     image: "https://opengraph.githubassets.com/1/anandsundaramoorthysa/TamilKaviWebsite",
     github: "https://github.com/anandsundaramoorthysa/TamilKaviWebsite",
-    demo: "https://tamilkavi.jigg.win/",
+    demo: "https://tamilkavi.com",
     category: "web development",
     completionDate: "April 2025"
   },
