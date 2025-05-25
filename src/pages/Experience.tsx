@@ -59,6 +59,12 @@ export default function Experience() {
 
   const experiences = [
     {
+      title: "Freelancer",
+      company: "Self-Employed",
+      location: "Remote",
+      period: "April 2025 – Present"
+    },
+    {
       title: "Full Stack Developer",
       company: "DiffuseAI",
       location: "Hosur, Tamil Nadu, India",
