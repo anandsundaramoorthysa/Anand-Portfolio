@@ -11,6 +11,7 @@ const navItems = [
   { name: "Experience", path: "/experience" },
   { name: "Education", path: "/education" },
   { name: "Projects", path: "/portfolio" },
+  { name: "Freelancing", path: "https://anandworks.jigg.win" },
   { name: "Blogs", path: "/blog" },
   { name: "Contact", path: "/contact" },
 ];
