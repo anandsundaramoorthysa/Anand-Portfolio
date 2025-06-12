@@ -17,7 +17,7 @@ import { Toaster } from "@/components/ui/toaster";
  import Blog from "./pages/Blog";
  import Contact from "./pages/Contact";
  import NotFound from "./pages/NotFound";
- import BlogPostTemplate from "./pages/[slug]"; // Import your BlogPostTemplate component
+ import BlogPostTemplate from "./pages/[slug]"; 
 
  const queryClient = new QueryClient();
 
