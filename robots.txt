@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.anand.jigg.win/sitemap.xml
+Sitemap: https://anand.jigg.win/sitemap.xml
