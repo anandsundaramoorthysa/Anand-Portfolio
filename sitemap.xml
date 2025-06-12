@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Static Pages -->
+  <url><loc>https://anand.jigg.win/</loc></url>
+  <url><loc>https://anand.jigg.win/about</loc></url>
+  <url><loc>https://anand.jigg.win/experience</loc></url>
+  <url><loc>https://anand.jigg.win/education</loc></url>
+  <url><loc>https://anand.jigg.win/portfolio</loc></url>
+  <url><loc>https://anand.jigg.win/blog</loc></url>
+  <url><loc>https://anand.jigg.win/contact</loc></url>
+
+  <!-- Blog Posts -->
+  <url><loc>https://anand.jigg.win/blog/1same-chip-varying-speed-the-mystery-behind-u-p-and-h-series-performance</loc></url>
+  <url><loc>https://anand.jigg.win/blog/2whats-behind-rising-prices-inflation-in-simple-terms</loc></url>
+  <url><loc>https://anand.jigg.win/blog/3why-html-css-is-a-foundation-for-web-development</loc></url>
+  <url><loc>https://anand.jigg.win/blog/4journey-of-the-stupid-explorer-in-flutter-namma-flutter</loc></url>
+  <url><loc>https://anand.jigg.win/blog/5neuralink-send-humans-to-the-next-level</loc></url>
+  <url><loc>https://anand.jigg.win/blog/6chatgpt-rlhf</loc></url>
+  <url><loc>https://anand.jigg.win/blog/7the-evolution-backclash-of-developers-using-chatgpt</loc></url>
+  <url><loc>https://anand.jigg.win/blog/8prompting-my-life</loc></url>
+  <url><loc>https://anand.jigg.win/blog/9how-failure-feels</loc></url>
+  <url><loc>https://anand.jigg.win/blog/10emacs-org-mode-in-windows</loc></url>
+  <url><loc>https://anand.jigg.win/blog/11lulu-mall-more-than-shoppings-a-business-viewpoint</loc></url>
+  <url><loc>https://anand.jigg.win/blog/12books-vs-audiobooks-which-one-is-best</loc></url>
+  <url><loc>https://anand.jigg.win/blog/13the-impact-of-ai-tools-like-lovable-dev-on-developers</loc></url>
+  <url><loc>https://anand.jigg.win/blog/14tamilkavi-release-of-python-package-and-dataset</loc></url>
+  <url><loc>https://anand.jigg.win/blog/15financial-freedom-is-a-long-term-game-why</loc></url>
+</urlset>
