@@ -83,7 +83,7 @@ export default function Experience() {
       period: "July 2024 – Sep 2024"
     },
     {
-      title: "Flutter Developer",
+      title: "Flutter Developer Intern",
       company: "Corizo",
       location: "Bengaluru, Karnataka, India",
       period: "April 2024 – June 2024"

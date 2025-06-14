@@ -12,6 +12,12 @@ export default function Education() {
 
   const education = [
     {
+      degree: "Master of Data Science",
+      institution: "Loyola College, Chennai",
+      period: "June 2025 – May 2027",
+      icon: GraduationCap,
+    },
+    {
       degree: "Bachelor of Computer Science",
       institution: "Loyola College of Arts & Science, Mettala",
       period: "Aug 2022 – May 2025",

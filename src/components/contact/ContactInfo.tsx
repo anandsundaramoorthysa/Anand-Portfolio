@@ -65,7 +65,7 @@ const ContactInfo = ({ copyToClipboard }: ContactInfoProps) => {
           </div>
           <div>
             <h3 className="text-sm font-medium text-muted-foreground">Location</h3>
-            <p>Madurai, Tamil Nadu, India</p>
+            <p>Chennai, Tamil Nadu, India</p>
           </div>
         </div>
       </div>
