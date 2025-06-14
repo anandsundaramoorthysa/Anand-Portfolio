@@ -31,7 +31,7 @@ export default function Education() {
     },
     {
       degree: "Elementary Education",
-      institution: "Harvey Nursery & Primary School, Madura",
+      institution: "Harvey Nursery & Primary School, Madurai",
       period: "June 2008 – May 2019",
       icon: GraduationCap,
     }
